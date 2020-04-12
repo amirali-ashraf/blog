@@ -30,13 +30,17 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 #Provides a better error page for Rails and other Rack apps.
 #Includes source code inspection, a live REPL and local/instance variable inspection for all stack frames.
-gem 'better_errors', '~> 2.1', '>= 2.1.1'
+gem 'better_errors'
+gem "binding_of_caller"
 
 # Frontend: A modern CSS framework based on Flexbox
 gem 'bulma-rails', '~> 0.8.0'
 
 # Forms made easy!
 gem 'simple_form', '~> 5.0', '>= 5.0.2'
+
+# dotenv config
+gem 'dotenv-rails', groups: [:development, :test]
 
 
 
